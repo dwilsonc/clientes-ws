@@ -1,0 +1,33 @@
+server:
+  port: 6064
+
+spring:
+    
+  datasource:
+#    url: jdbc:postgresql://127.0.0.1:5432/intercorp
+    url: jdbc:postgresql://reto-intercorp-bd.ccqsf0qkzdhp.us-east-2.rds.amazonaws.com:5432/intercorp
+    username: postgres
+    password: password$1
+
+  jpa:
+#    hibernate:
+#      ddl-auto: update
+    database: POSTGRESQL
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        
+swagger:
+  title: API Clientes
+
+springfox:
+  documentation:
+    swagger:
+      v2:
+        path: /api/v1/clientes/swagger.json
+        
+#logging:
+#  file:
+#    path: /home/ubuntu/app/logs

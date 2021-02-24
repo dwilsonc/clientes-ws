@@ -1,0 +1,32 @@
+[
+	{
+		"nombre": "Dennis",
+		"apellido": "Wilson",
+		"edad": 31,
+		"fechaNacimiento": "1989-07-19T00:00:00.000+00:00"
+	},
+	{
+		"nombre": "Silvana",
+		"apellido": "Chavez",
+		"edad": 35,
+		"fechaNacimiento": "1989-07-19T00:00:00.000+00:00"
+	},
+	{
+		"nombre": "Mario",
+		"apellido": "Flores",
+		"edad": 40,
+		"fechaNacimiento": "1989-07-19T00:00:00.000+00:00"
+	},
+	{
+		"nombre": "Luis",
+		"apellido": "Paredes",
+		"edad": 50,
+		"fechaNacimiento": "1989-07-19T00:00:00.000+00:00"
+	},
+	{
+		"nombre": "Maria",
+		"apellido": "Paredes",
+		"edad": 20,
+		"fechaNacimiento": "1989-07-19T00:00:00.000+00:00"
+	}
+]
